@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(211, 210, 190) ;
+    font-family: sans-serif;
+}
+
+a {
+    font-size: 17PX;
+    line-height: 18PX;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+main .main-intro h1 {
+    font-size: 96px;
+    line-height: 106px;
+    text-align: center;
+    text-shadow: rgb(255, 255, 255) -5px -1px;
+}
+
+main  p {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+main .main-intro {
+    position: center;
+}
+
+    
+.header-main {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(211, 210, 190);
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+    
+.header-main-logo {
+    width: fit-content;
+    height: 100%;
+    padding-left: 60px;
+    display:flex;
+}
+    
+.header-main-logo img {
+    height: 50px;
+    align-self: center;
+}
+    
+.header-main-nav {
+    width: fit-content;
+    height: 100%;
+}
+    
+.header-main-nav ul {
+    list-style: none;
+    margin-left: 30px;
+}
+    
+.header-main-nav ul li {
+    display: inline;
+    float: left;
+    list-style-type: none;
+}
+    
+    
+.header-main-nav ul li a {
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    color: #050505;
+    display: block;
+    height: 100%;
+}
+    
+.header-main-nav ul li a:hover {
+    color: #8b3b3b;
+ }
+    
+.header-main-ph {
+    width: fit-content;
+    height: 100%;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+    
+.header-main-ph-no {
+    width: 35px;
+    height: 28px;
+    background-image: url(../images/phlogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+    
+.header-main-ph-no:hover {
+    background-image: url(../images/phlogo-color.png);
+    
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: flex;
+    background-color: rgb(211, 210, 190)
+}
+
+.row {
+    width: 100%;
+    padding: 50px 100px;
+}
+
+.image-section {
+    width: 30%;
+    float: left;
+}
+
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    width: 60%;
+    margin-left: 50px;
+    float: left;
+}
+
+.content h1{
+    font-size: 90PX;
+    letter-spacing: 3.5PX;
+    margin-top: 25px;
+    color: #222;
+}
+
+.content h2{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #b60112;
+    margin-top: 25px;
+}
+
+.content p{
+    font-size: 20px;
+    font-family: serif;
+    line-height: 1.5;
+}
+
+
+

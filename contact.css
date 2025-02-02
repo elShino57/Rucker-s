@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.header-main {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(211, 210, 190);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main-logo {
+    width: fit-content;
+    height: 100%;
+    padding-left: 60px;
+    display:flex;
+}
+
+.header-main-logo img {
+    height: 50px;
+    align-self: center;
+}
+
+.header-main-nav {
+    width: fit-content;
+    height: 100%;
+}
+
+.header-main-nav ul {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.header-main-nav ul li {
+    display: inline;
+    float: left;
+}
+
+
+.header-main-nav ul li a {
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    color: #050505;
+    display: block;
+    height: 100%;
+}
+
+.header-main-nav ul li a:hover {
+    color: #8b3b3b;
+}
+
+.header-main-ph {
+    width: fit-content;
+    height: 100%;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.header-main-ph-no {
+    width: 35px;
+    height: 28px;
+    background-image: url(../images/phlogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-main-ph-no:hover {
+    background-image: url(../images/phlogo-color.png);
+
+}
+
+.contact {
+    min-height: 100vh;
+    background-color: rgb(211, 210, 190);
+    padding: 50px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin:0 auto;
+}
+
+.container h2{
+    font-size:  36px;
+    margin-bottom: 40px;
+    color: #333
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.contact-form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333
+}
+
+.form-group {
+    margin-bottom: 20px;
+
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 8px #bbb;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-info h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-info p{
+    margin-bottom: 10px;
+    color: #555;
+}
+

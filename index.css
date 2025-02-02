@@ -1,0 +1,29 @@
+main {
+    width: 100%;
+    margin-top: 60px;
+    background-color: rgb(211, 210, 190);
+    background-image: url(../images/dt.jpg);
+    background-size: 109%, cover;
+    background-repeat: no-repeat;
+    background-position: bottom, center;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+main .main-intro h1 {
+    font-size: 96px;
+    line-height: 106px;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) -5px -1px;
+}
+
+main  p {
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+}
+
+main .main-intro {
+    position: center;
+}
